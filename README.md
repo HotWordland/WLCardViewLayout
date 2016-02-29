@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod "WLCardViewLayout"
 ```
 
+#支持cocoapods
+```ruby
+pod "WLCardViewLayout"
+```
 #效果
 
 ![](https://github.com/HotWordland/WLCardViewLayout/blob/master/demo.gif)
