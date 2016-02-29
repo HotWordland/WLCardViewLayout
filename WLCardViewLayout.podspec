@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = "a extend of collectViewlayout which can swipe to delte and use like card"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/WLCardViewLayout"
+  s.homepage         = "https://github.com/HotWordland/WLCardViewLayout"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "HotWordland" => "454763196@qq.com" }
+  s.author           = { "巫龙" => "454763196@qq.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/WLCardViewLayout.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
