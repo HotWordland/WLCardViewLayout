@@ -2,7 +2,7 @@
 //  WLCardViewLayout.h
 //  WLCardViewLayout
 //
-//  Created by 巫龙 on 1/23/15.
+//  Created by 巫龙 on 2/29/16.
 //  Copyright (c) 2016 WonderLand. All rights reserved.
 //
 
@@ -95,7 +95,6 @@ static CGFloat easingDisplacementFade(CGFloat ratio) {
 
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
 {
-    NSLog(@"调用了layoutAttributesForElementsInRect");
     NSMutableArray *attributes = [[NSMutableArray alloc]initWithArray:[super layoutAttributesForElementsInRect:rect]];
     
     NSArray *cellIndices = [self.collectionView indexPathsForVisibleItems];
@@ -221,7 +220,7 @@ static CGFloat easingDisplacementFade(CGFloat ratio) {
             NSLog(@"%f",currentPoint.y);
             if (currentPoint.y < 0) {
                 [self.panGestureRecognizer setEnabled:NO];
-                NSLog(@"out of rect");
+//                NSLog(@"out of rect");
                
             }
             [self cellDidTranslate];

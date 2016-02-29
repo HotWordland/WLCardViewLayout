@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WLCardViewLayout"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Card and swipe out layout of CollectView.(可以滑动删除的卡片视图布局)"
 
 # This description is used to generate tags and improve search results.
