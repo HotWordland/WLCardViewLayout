@@ -1,0 +1,16 @@
+PODS:
+  - WLCardViewLayout (0.1.0)
+
+DEPENDENCIES:
+  - WLCardViewLayout (from `../`)
+
+EXTERNAL SOURCES:
+  WLCardViewLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WLCardViewLayout: 80d815209ba274c49faa0561919fa30735e68647
+
+PODFILE CHECKSUM: 507240bb0e2bd31a1e840869b7ee89ed7a19e3af
+
+COCOAPODS: 1.0.0.beta.2

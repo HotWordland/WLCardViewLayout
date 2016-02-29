@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F7886D0952DA7547486D9113B2C8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		1DBF1A326BB72B70031252209C8E5D56 /* WLCardViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 112B4A80D7FF543C14F459F1E8A69EE3 /* WLCardViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5E6021F6284B68CD58250A45AF5F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		44CDCA340DE599AE701BA00C7EB8155A /* WLCardViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1179EA5182F7EA74867314D2FE1293 /* WLCardViewLayout-dummy.m */; };
+		4939A206F6C8EB1E61C20F32F2A1018A /* WLCardViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C96C388F8FB1249D40459F62C304F /* WLCardViewLayout.m */; };
+		93BA718A27068515238F8E2FFBDCC2EA /* Pods-WLCardViewLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B4EC70571983AA083E5F4FB0A47DAF /* Pods-WLCardViewLayout_Tests-dummy.m */; };
+		A8D5A644A969CD1D85B2F71310B34FC3 /* Pods-WLCardViewLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34CEB0C5FD515ADC0A5C5D53537B5C2 /* Pods-WLCardViewLayout_Example-dummy.m */; };
+		B56B32AF4C81D41875FC0071136339CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		156760167354C39D60393B302DB535AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F7ED3646329210C711DA262A9B9415;
+			remoteInfo = WLCardViewLayout;
+		};
+		9F0418A81497E158AFF583452EFF2088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3821FAB1C81C2FC0E926DB0EBA5E202B;
+			remoteInfo = "WLCardViewLayout-WLCardViewLayout";
+		};
+		C5C6B36972C762C97A65F9497819A9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F7ED3646329210C711DA262A9B9415;
+			remoteInfo = WLCardViewLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088C96C388F8FB1249D40459F62C304F /* WLCardViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WLCardViewLayout.m; sourceTree = "<group>"; };
+		0C2225D386B37281E2AD772A35577C58 /* WLCardViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLCardViewLayout.xcconfig; sourceTree = "<group>"; };
+		106C5C30AD1D069AAAB2555FAFDD7F45 /* Pods-WLCardViewLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLCardViewLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		112B4A80D7FF543C14F459F1E8A69EE3 /* WLCardViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WLCardViewLayout.h; sourceTree = "<group>"; };
+		1567B8CAD76524FD1C6D4A51B4C6D459 /* Pods-WLCardViewLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLCardViewLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		157E0F89FBC27A0054BEA9F0A648A8E4 /* Pods-WLCardViewLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLCardViewLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15CFD027EA8B8B0DCE961018616E1142 /* WLCardViewLayout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLCardViewLayout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A477D2BEA2F735919E318BE5FC9C853 /* Pods-WLCardViewLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLCardViewLayout_Tests-resources.sh"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FB04B252688DBF78AB26471BFF58E74 /* Pods-WLCardViewLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLCardViewLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		608C45FD8C6E038557B343BC47D4FC5C /* Pods-WLCardViewLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLCardViewLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		61AB12E8629ACEDED2464B3F664D4C6A /* Pods-WLCardViewLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLCardViewLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6C2709472CCBB2FC0B6AB7CB3E8F1480 /* libPods-WLCardViewLayout_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLCardViewLayout_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7130DC080BF98E40C83BDAF60C8CA2E3 /* ResourceBundle-WLCardViewLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WLCardViewLayout-Info.plist"; sourceTree = "<group>"; };
+		86FD69FBDAD30AB6CDB4683FF1FB2745 /* Pods-WLCardViewLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLCardViewLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93B4012A0277FDEFEFDC742B89138017 /* Pods-WLCardViewLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLCardViewLayout_Example-resources.sh"; sourceTree = "<group>"; };
+		9700703E43477169443F13CC3423E9A8 /* WLCardViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLCardViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		AE26F933D2C26F239D986925C08C62A0 /* Pods-WLCardViewLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLCardViewLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA1179EA5182F7EA74867314D2FE1293 /* WLCardViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLCardViewLayout-dummy.m"; sourceTree = "<group>"; };
+		DD238CCA1821543FE9F390C6ABCBC2F8 /* libPods-WLCardViewLayout_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLCardViewLayout_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72A5BB685A68BC952B4E1B93FC689A9 /* Pods-WLCardViewLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLCardViewLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1B4EC70571983AA083E5F4FB0A47DAF /* Pods-WLCardViewLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLCardViewLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		F34CEB0C5FD515ADC0A5C5D53537B5C2 /* Pods-WLCardViewLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLCardViewLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		F51D0B5753FB38815F8B87EF39898249 /* libWLCardViewLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLCardViewLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91D05EF7B995A878E82FF471F1048B4 /* Pods-WLCardViewLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLCardViewLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53751BDC9FE94B7BD298863CFDDAA21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5E6021F6284B68CD58250A45AF5F56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874761361C6AFECD6B82BD13B638E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7886D0952DA7547486D9113B2C8D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711AF175AC97BCBD9EE2A6AABAF56CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B32AF4C81D41875FC0071136339CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08C3575C1B79C269B7C29FC1C2B111E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FCBE5C055ECC19D83D567FE0A5D72D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F594648FE1793B5FFBD5B81015955D2C /* WLCardViewLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		23CDCD1B86E5E0F70C9B6B265EED9297 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41244E30B3F49649F88779633BE6F539 /* Pods-WLCardViewLayout_Example */,
+				FA8D387F78371B98207F8DFC05D26B96 /* Pods-WLCardViewLayout_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41244E30B3F49649F88779633BE6F539 /* Pods-WLCardViewLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1567B8CAD76524FD1C6D4A51B4C6D459 /* Pods-WLCardViewLayout_Example-acknowledgements.markdown */,
+				E72A5BB685A68BC952B4E1B93FC689A9 /* Pods-WLCardViewLayout_Example-acknowledgements.plist */,
+				F34CEB0C5FD515ADC0A5C5D53537B5C2 /* Pods-WLCardViewLayout_Example-dummy.m */,
+				86FD69FBDAD30AB6CDB4683FF1FB2745 /* Pods-WLCardViewLayout_Example-frameworks.sh */,
+				93B4012A0277FDEFEFDC742B89138017 /* Pods-WLCardViewLayout_Example-resources.sh */,
+				F91D05EF7B995A878E82FF471F1048B4 /* Pods-WLCardViewLayout_Example.debug.xcconfig */,
+				61AB12E8629ACEDED2464B3F664D4C6A /* Pods-WLCardViewLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-WLCardViewLayout_Example";
+			path = "Target Support Files/Pods-WLCardViewLayout_Example";
+			sourceTree = "<group>";
+		};
+		72E8540BB726B43D5370B9D3831DEFD2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				850EA709D21A2910886B70ACBAA7BBD3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				10FCBE5C055ECC19D83D567FE0A5D72D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				82C9F49C44248B0AA3EF047236B8E1ED /* Products */,
+				23CDCD1B86E5E0F70C9B6B265EED9297 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82C9F49C44248B0AA3EF047236B8E1ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD238CCA1821543FE9F390C6ABCBC2F8 /* libPods-WLCardViewLayout_Example.a */,
+				6C2709472CCBB2FC0B6AB7CB3E8F1480 /* libPods-WLCardViewLayout_Tests.a */,
+				F51D0B5753FB38815F8B87EF39898249 /* libWLCardViewLayout.a */,
+				15CFD027EA8B8B0DCE961018616E1142 /* WLCardViewLayout.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		850EA709D21A2910886B70ACBAA7BBD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				112B4A80D7FF543C14F459F1E8A69EE3 /* WLCardViewLayout.h */,
+				088C96C388F8FB1249D40459F62C304F /* WLCardViewLayout.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AC12A40EE58367831287808485032FFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7130DC080BF98E40C83BDAF60C8CA2E3 /* ResourceBundle-WLCardViewLayout-Info.plist */,
+				0C2225D386B37281E2AD772A35577C58 /* WLCardViewLayout.xcconfig */,
+				CA1179EA5182F7EA74867314D2FE1293 /* WLCardViewLayout-dummy.m */,
+				9700703E43477169443F13CC3423E9A8 /* WLCardViewLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLCardViewLayout";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F594648FE1793B5FFBD5B81015955D2C /* WLCardViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				72E8540BB726B43D5370B9D3831DEFD2 /* Pod */,
+				AC12A40EE58367831287808485032FFD /* Support Files */,
+			);
+			name = WLCardViewLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FA8D387F78371B98207F8DFC05D26B96 /* Pods-WLCardViewLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				106C5C30AD1D069AAAB2555FAFDD7F45 /* Pods-WLCardViewLayout_Tests-acknowledgements.markdown */,
+				157E0F89FBC27A0054BEA9F0A648A8E4 /* Pods-WLCardViewLayout_Tests-acknowledgements.plist */,
+				F1B4EC70571983AA083E5F4FB0A47DAF /* Pods-WLCardViewLayout_Tests-dummy.m */,
+				5FB04B252688DBF78AB26471BFF58E74 /* Pods-WLCardViewLayout_Tests-frameworks.sh */,
+				1A477D2BEA2F735919E318BE5FC9C853 /* Pods-WLCardViewLayout_Tests-resources.sh */,
+				AE26F933D2C26F239D986925C08C62A0 /* Pods-WLCardViewLayout_Tests.debug.xcconfig */,
+				608C45FD8C6E038557B343BC47D4FC5C /* Pods-WLCardViewLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-WLCardViewLayout_Tests";
+			path = "Target Support Files/Pods-WLCardViewLayout_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		437EE2A8FF6867F2EFAE81807DD3987A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBF1A326BB72B70031252209C8E5D56 /* WLCardViewLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3821FAB1C81C2FC0E926DB0EBA5E202B /* WLCardViewLayout-WLCardViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1985F0391928D7EFEB4E15EA21C6944 /* Build configuration list for PBXNativeTarget "WLCardViewLayout-WLCardViewLayout" */;
+			buildPhases = (
+				95A4757BFC84A3E48F1495994DFE089C /* Sources */,
+				C08C3575C1B79C269B7C29FC1C2B111E /* Frameworks */,
+				47EF20909045562F6847B79E1D083827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WLCardViewLayout-WLCardViewLayout";
+			productName = "WLCardViewLayout-WLCardViewLayout";
+			productReference = 15CFD027EA8B8B0DCE961018616E1142 /* WLCardViewLayout.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5F8FB2003B0927986CDDAA3C82E835A9 /* Pods-WLCardViewLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE6A426D269C2F49EB7BEBAC071E702 /* Build configuration list for PBXNativeTarget "Pods-WLCardViewLayout_Example" */;
+			buildPhases = (
+				74E8EFE437F173F6417C849D8930A779 /* Sources */,
+				5874761361C6AFECD6B82BD13B638E08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BA240342EEAE39DB77DCD3574DB165 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLCardViewLayout_Example";
+			productName = "Pods-WLCardViewLayout_Example";
+			productReference = DD238CCA1821543FE9F390C6ABCBC2F8 /* libPods-WLCardViewLayout_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7BCB713DB7951AC95D8F23678BF1314D /* Pods-WLCardViewLayout_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9698D14A904A95858867AC75B1761F /* Build configuration list for PBXNativeTarget "Pods-WLCardViewLayout_Tests" */;
+			buildPhases = (
+				A8758EF5971B4B587C0D90A2A184CF75 /* Sources */,
+				711AF175AC97BCBD9EE2A6AABAF56CFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				999C0D0CCB5EE8DD52D71D0F886137FA /* PBXTargetDependency */,
+			);
+			name = "Pods-WLCardViewLayout_Tests";
+			productName = "Pods-WLCardViewLayout_Tests";
+			productReference = 6C2709472CCBB2FC0B6AB7CB3E8F1480 /* libPods-WLCardViewLayout_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B4F7ED3646329210C711DA262A9B9415 /* WLCardViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D3F7B689F6715F603CD2F809FB5E4A /* Build configuration list for PBXNativeTarget "WLCardViewLayout" */;
+			buildPhases = (
+				3358EDA3A3932ED37F689161765BEC04 /* Sources */,
+				53751BDC9FE94B7BD298863CFDDAA21D /* Frameworks */,
+				437EE2A8FF6867F2EFAE81807DD3987A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5E6E57137CEA274985DDE35F84825E /* PBXTargetDependency */,
+			);
+			name = WLCardViewLayout;
+			productName = WLCardViewLayout;
+			productReference = F51D0B5753FB38815F8B87EF39898249 /* libWLCardViewLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 82C9F49C44248B0AA3EF047236B8E1ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8FB2003B0927986CDDAA3C82E835A9 /* Pods-WLCardViewLayout_Example */,
+				7BCB713DB7951AC95D8F23678BF1314D /* Pods-WLCardViewLayout_Tests */,
+				B4F7ED3646329210C711DA262A9B9415 /* WLCardViewLayout */,
+				3821FAB1C81C2FC0E926DB0EBA5E202B /* WLCardViewLayout-WLCardViewLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EF20909045562F6847B79E1D083827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3358EDA3A3932ED37F689161765BEC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CDCA340DE599AE701BA00C7EB8155A /* WLCardViewLayout-dummy.m in Sources */,
+				4939A206F6C8EB1E61C20F32F2A1018A /* WLCardViewLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E8EFE437F173F6417C849D8930A779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D5A644A969CD1D85B2F71310B34FC3 /* Pods-WLCardViewLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A4757BFC84A3E48F1495994DFE089C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8758EF5971B4B587C0D90A2A184CF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BA718A27068515238F8E2FFBDCC2EA /* Pods-WLCardViewLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BA240342EEAE39DB77DCD3574DB165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLCardViewLayout;
+			target = B4F7ED3646329210C711DA262A9B9415 /* WLCardViewLayout */;
+			targetProxy = C5C6B36972C762C97A65F9497819A9B4 /* PBXContainerItemProxy */;
+		};
+		999C0D0CCB5EE8DD52D71D0F886137FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLCardViewLayout;
+			target = B4F7ED3646329210C711DA262A9B9415 /* WLCardViewLayout */;
+			targetProxy = 156760167354C39D60393B302DB535AD /* PBXContainerItemProxy */;
+		};
+		CD5E6E57137CEA274985DDE35F84825E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WLCardViewLayout-WLCardViewLayout";
+			target = 3821FAB1C81C2FC0E926DB0EBA5E202B /* WLCardViewLayout-WLCardViewLayout */;
+			targetProxy = 9F0418A81497E158AFF583452EFF2088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14C4E215B5B2D80B8350D8D79F608332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2225D386B37281E2AD772A35577C58 /* WLCardViewLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WLCardViewLayout/ResourceBundle-WLCardViewLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = WLCardViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		201D323153BF9960E8E71C2BEABF1F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AB12E8629ACEDED2464B3F664D4C6A /* Pods-WLCardViewLayout_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6644C007195210329F923B6833C2DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608C45FD8C6E038557B343BC47D4FC5C /* Pods-WLCardViewLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		77F297BE9DA6A09F9BB6561AEA5E48E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2225D386B37281E2AD772A35577C58 /* WLCardViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WLCardViewLayout/WLCardViewLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A427AB23E9CE53B4D90C41CF979F10E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2225D386B37281E2AD772A35577C58 /* WLCardViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WLCardViewLayout/WLCardViewLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A581D54E68E1C6B8AD8982A5FBD8311C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91D05EF7B995A878E82FF471F1048B4 /* Pods-WLCardViewLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC1AB03FC5BAED7862247F327214C8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE26F933D2C26F239D986925C08C62A0 /* Pods-WLCardViewLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF8336FDCECA79DE5C97DED2737B4793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2225D386B37281E2AD772A35577C58 /* WLCardViewLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WLCardViewLayout/ResourceBundle-WLCardViewLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = WLCardViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */,
+				2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9698D14A904A95858867AC75B1761F /* Build configuration list for PBXNativeTarget "Pods-WLCardViewLayout_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1AB03FC5BAED7862247F327214C8E0 /* Debug */,
+				6644C007195210329F923B6833C2DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE6A426D269C2F49EB7BEBAC071E702 /* Build configuration list for PBXNativeTarget "Pods-WLCardViewLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A581D54E68E1C6B8AD8982A5FBD8311C /* Debug */,
+				201D323153BF9960E8E71C2BEABF1F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D3F7B689F6715F603CD2F809FB5E4A /* Build configuration list for PBXNativeTarget "WLCardViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F297BE9DA6A09F9BB6561AEA5E48E8 /* Debug */,
+				A427AB23E9CE53B4D90C41CF979F10E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1985F0391928D7EFEB4E15EA21C6944 /* Build configuration list for PBXNativeTarget "WLCardViewLayout-WLCardViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8336FDCECA79DE5C97DED2737B4793 /* Debug */,
+				14C4E215B5B2D80B8350D8D79F608332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

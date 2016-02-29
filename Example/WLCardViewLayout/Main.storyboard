@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +16,64 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ExB-HP-d2O">
+                                <rect key="frame" x="0.0" y="30" width="600" height="540"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="z1B-Ou-xZ6" customClass="WLCardViewLayout"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="7ka-Y8-qIC">
+                                        <rect key="frame" x="12" y="0.0" width="576" height="583"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="576" height="583"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01" translatesAutoresizingMaskIntoConstraints="NO" id="UPi-xm-pdI">
+                                                    <rect key="frame" x="0.0" y="0.0" width="576" height="583"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="UPi-xm-pdI" secondAttribute="bottom" id="7qS-04-BrS"/>
+                                            <constraint firstItem="UPi-xm-pdI" firstAttribute="leading" secondItem="7ka-Y8-qIC" secondAttribute="leading" id="AFk-8D-eTI"/>
+                                            <constraint firstItem="UPi-xm-pdI" firstAttribute="top" secondItem="7ka-Y8-qIC" secondAttribute="top" id="fnW-RB-ubp"/>
+                                            <constraint firstAttribute="trailing" secondItem="UPi-xm-pdI" secondAttribute="trailing" id="mxB-Jp-AaW"/>
+                                        </constraints>
+                                        <size key="customSize" width="576" height="583"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="whP-gf-Uak" id="msM-bn-rEZ"/>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="Od8-Ve-KOQ"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="ExB-HP-d2O" secondAttribute="bottom" constant="30" id="8Fp-DO-I0h"/>
+                            <constraint firstItem="ExB-HP-d2O" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" constant="30" id="GU0-2L-D4E"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="ExB-HP-d2O" secondAttribute="bottom" id="erR-Vy-XTo"/>
+                            <constraint firstItem="ExB-HP-d2O" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="pfc-Ya-Eh6"/>
+                            <constraint firstAttribute="trailing" secondItem="ExB-HP-d2O" secondAttribute="trailing" id="xcB-GJ-yTB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="erR-Vy-XTo"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="cardLayout" destination="z1B-Ou-xZ6" id="eSS-w0-PD3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="293" y="361"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="01" width="250" height="156"/>
+    </resources>
 </document>
