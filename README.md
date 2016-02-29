@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod "WLCardViewLayout"
 ```
 
+#效果
+
+![](https://github.com/HotWordland/WLCardViewLayout/blob/master/Example/demo.gif)
+
+
+
 ## Author
 
 HotWordland, 454763196@qq.com
