@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "巫龙" => "454763196@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/WLCardViewLayout.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/HotWordland/WLCardViewLayout.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
