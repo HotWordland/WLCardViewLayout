@@ -41,9 +41,24 @@ pod "WLCardViewLayout"
     [self.cardLayout setSwipeToDeleteDelegate:self];
    }
 
-#CollectView数据源代理 - 此处省略
+//CollectView数据源代理 
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 1;
+}
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return list.count;
+}
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
    
-#swipe删除数据源代理
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CardCell" forIndexPath:indexPath];
+    UIImageView *im = [cell viewWithTag:100];
+    [im setImage:[UIImage imageNamed:list[indexPath.section]]];
+    return cell;
+}
+
+   
+//swipe删除数据源代理
 
 -(void)swipeToDeleteLayout:(WLCardViewLayout *)layout didDeleteCellAtIndexPath:(NSIndexPath *)indexPath{
     [list removeObjectAtIndex:indexPath.section];
