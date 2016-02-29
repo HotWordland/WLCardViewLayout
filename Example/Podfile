@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'WLCardViewLayout_Example', :exclusive => true do
+  pod 'WLCardViewLayout', :path => '../'
+end
+
+target 'WLCardViewLayout_Tests', :exclusive => true do
+  pod 'WLCardViewLayout', :path => '../'
+
+  
+end
