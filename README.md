@@ -22,7 +22,7 @@ pod "WLCardViewLayout"
 
 #效果
 
-![](https://github.com/HotWordland/WLCardViewLayout/blob/master/Example/demo.gif)
+![](https://github.com/HotWordland/WLCardViewLayout/blob/master/demo.gif)
 
 
 
