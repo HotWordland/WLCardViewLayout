@@ -24,6 +24,12 @@ pod "WLCardViewLayout"
 
 ![](https://github.com/HotWordland/WLCardViewLayout/blob/master/demo.gif)
 
+#使用
+
+在可视化编辑里:
+![](https://github.com/HotWordland/WLCardViewLayout/blob/master/use.jpeg)
+
+
 
 
 ## Author
