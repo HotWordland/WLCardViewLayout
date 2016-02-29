@@ -20,15 +20,61 @@ it, simply add the following line to your Podfile:
 pod "WLCardViewLayout"
 ```
 
+#支持cocoapods
+```ruby
+pod "WLCardViewLayout"
+```
 #效果
 
 ![](https://github.com/HotWordland/WLCardViewLayout/blob/master/demo.gif)
+
+#使用
+
+在可视化编辑里:
+![](https://github.com/HotWordland/WLCardViewLayout/blob/master/use.jpeg)
+
+然后关联cardlayout至Controller:
+```Objective-C
+@property (weak, nonatomic) IBOutlet WLCardViewLayout *cardLayout;
+```
+
+
+```Objective-C
+- (void)viewDidLoad {
+[super viewDidLoad];
+[self.cardLayout setSwipeToDeleteDelegate:self];
+}
+
+//CollectView数据源代理 
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+return 1;
+}
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+return list.count;
+}
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+
+UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CardCell" forIndexPath:indexPath];
+UIImageView *im = [cell viewWithTag:100];
+[im setImage:[UIImage imageNamed:list[indexPath.section]]];
+return cell;
+}
+
+
+//swipe删除数据源代理
+
+-(void)swipeToDeleteLayout:(WLCardViewLayout *)layout didDeleteCellAtIndexPath:(NSIndexPath *)indexPath{
+[list removeObjectAtIndex:indexPath.section];
+}
+
+```
 
 
 
 ## Author
 
-HotWordland, 454763196@qq.com
+巫龙, 454763196@qq.com
 
 ## License
 
